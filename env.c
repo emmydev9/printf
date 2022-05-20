@@ -8,7 +8,7 @@
 int env(const char *s, int index)
 {
 	print_t pr[] = {
-		{"c", print_chr}, {"s", print_str}, {" %", print_prg},
+		{"c", print_chr}, {"s", print_str}, {"%", print_prg}, {" %", print_prg},
 		{NULL, NULL}
 	};
 	int i = 0, j = 0, first_index;
